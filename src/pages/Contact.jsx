@@ -135,9 +135,9 @@ const Contact = () => {
           <ambientLight intensity={0.5} />
           <Suspense fallback={<Loader />}>
             <Fox
-              position={[0.5, 0.35, 0]}
+              position={[0.5, 1, 0]}
               rotation={[12.6, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              scale={[0.4, 0.4, 0.4]}
               currentAnimation={currentAnimation}
             />
           </Suspense>
